@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 0 -1
-  "main.bcf" 1788581480 142064 e2a49652ef52c56bea94beca7cd1a203 "pdflatex"
-  "references.bib" 1788581426 8737 b25f80ab133444ef2c5e1c969b03dbb5 ""
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1788609541.43667 -1
+  "main.bcf" 1788609541 141806 8e13938558495409619b85240b77d706 "pdflatex"
+  "references.bib" 1788583301 8860 b25f80ab133444ef2c5e1c969b03dbb5 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1788581477.35912 "c:/Users/themo/Downloads/Research_Methodology_Assignment_1/main.tex" "main.pdf" "main" 1788581481.29941 2
-  "c:/Users/themo/Downloads/Research_Methodology_Assignment_1/main.tex" 1788581426 62332 706d383f22e5155585467431c7a62260 ""
+["pdflatex"] 1788609536.96659 "c:/Users/themo/Research_Methodology_Assignment_1/Research_Methodology_Assignment_1/main.tex" "main.pdf" "main" 1788609541.4383 0
+  "c:/Users/themo/Research_Methodology_Assignment_1/Research_Methodology_Assignment_1/main.tex" 1788609529 66524 338f714494e5ec71ec8c1a84da1004b9 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1788568116 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1788569704 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1788569006 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -33,11 +33,13 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1788568098 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1788568098 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1788568098 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1788568098 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1788566865 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1788566865 32080 340ef9bf63678554ee606688e7b5339d ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1788566865 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1788566865 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1788566865 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1788566865 36118 fad905eba93cff5bce1e185fe980a177 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1788566866 31764 459c573c03a4949a528c2cc7f557e217 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1788568116 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
   "c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1788572818 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -119,12 +121,12 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1788580387 5655996 795b756740562267ad2ae16e70168a76 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1788580671 3658221 4f4136537af0edaf65e8c235135e5bfd ""
   "c:/texlive/2026/texmf.cnf" 1788580321 713 e69b156964470283e0530f5060668171 ""
-  "figures/Prisma.jpg" 1788581426 338433 05dbe4a8df2d73454722f5e12eb94c71 ""
-  "main.aux" 1788581480 25243 91eddce83e79803fa9c24c6cb240d235 "pdflatex"
-  "main.bbl" 0 -1 0 "biber main"
-  "main.out" 1788581480 11133 444d8acdc72e63a38f56da9015af650a "pdflatex"
-  "main.tex" 1788581426 62332 706d383f22e5155585467431c7a62260 ""
-  "main.toc" 1788581480 4828 1bfd1ab1dd43e37fbc8dfd70a3c1b7ad "pdflatex"
+  "main.aux" 1788609541 27533 fc2401ec80563f2f21dba591386d5183 "pdflatex"
+  "main.bbl" 1788590166 56346 0af6d24aa0b805e03e99998cb1b081bd "biber main"
+  "main.out" 1788609541 11133 3ce547ad2ae687197b22d692a3363f5e "pdflatex"
+  "main.run.xml" 1788609541 2427 d1bfcd6d722f5bf4e724fdcb22d9bbf2 "pdflatex"
+  "main.tex" 1788609529 66524 338f714494e5ec71ec8c1a84da1004b9 ""
+  "main.toc" 1788609541 4829 6c6480669142d28997965f04247f1875 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

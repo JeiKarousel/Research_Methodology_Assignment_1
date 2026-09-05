@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  5 SEP 2026 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.5)  5 SEP 2026 19:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/themo/Downloads/Research_Methodology_Assignment_1/main.tex
-(c:/Users/themo/Downloads/Research_Methodology_Assignment_1/main.tex
+**c:/Users/themo/Research_Methodology_Assignment_1/Research_Methodology_Assignment_1/main.tex
+(c:/Users/themo/Research_Methodology_Assignment_1/Research_Methodology_Assignment_1/main.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
 (c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -549,7 +549,26 @@ Package: blx-case-expl3 2026/08/13 v3.22 expl3 case changing code for biblatex
 Package hyperref Info: Option `colorlinks' set `true' on input line 46.
 \@quotelevel=\count455
 \@quotereset=\count456
- (./main.aux)
+ (./main.aux
+
+LaTeX Warning: Label `tab:inclusion-exclusion' multiply defined.
+
+
+LaTeX Warning: Label `tab:inclusion-exclusion' multiply defined.
+
+
+LaTeX Warning: Label `tab:inclusion-exclusion' multiply defined.
+
+
+LaTeX Warning: Label `tab:inclusion-exclusion' multiply defined.
+
+
+LaTeX Warning: Label `tab:inclusion-exclusion' multiply defined.
+
+
+LaTeX Warning: Label `tab:inclusion-exclusion' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -635,6 +654,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 69.
+ (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -666,11 +686,33 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl
 
-No file main.bbl.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ahmad2022
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                lee2023
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                smith2024
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 69.
 Package biblatex Info: Reference segment=0 on input line 69.
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
 (Font)              size <17.28> substituted on input line 73.
@@ -681,518 +723,68 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
 
 [1
 
-{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-No file main.toc.
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-[2]
-
-LaTeX Warning: Citation 'smith2024' on page 3 undefined on input line 181.
-
-
-LaTeX Warning: Citation 'smith2024' on page 3 undefined on input line 184.
-
-
-LaTeX Warning: Citation 'lee2023' on page 3 undefined on input line 184.
-
-
-LaTeX Warning: Citation 'ahmad2022' on page 3 undefined on input line 184.
-
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
-[5]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 349.
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 349.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<figures/Prisma.jpg, id=36, 314.3745pt x 351.05153pt>
-File: figures/Prisma.jpg Graphic file (type jpg)
-<use figures/Prisma.jpg>
-Package pdftex.def Info: figures/Prisma.jpg  used on input line 404.
-(pdftex.def)             Requested size: 362.37572pt x 404.68637pt.
- [6] [7 <./figures/Prisma.jpg>]
+) [2])
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
-LaTeX Warning: Citation 'ilyas2024role' on page 8 undefined on input line 461.
-
-
-LaTeX Warning: Citation 'hassan2025' on page 8 undefined on input line 467.
-
-
-LaTeX Warning: Citation 'sharma2024digital' on page 8 undefined on input line 473.
-
-
-LaTeX Warning: Citation 'ARIF2025104296' on page 8 undefined on input line 480.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 8 undefined on input line 495.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 8 undefined on input line 495.
-
-
-Overfull \hbox (8.78923pt too wide) in paragraph at lines 495--496
-[]\OT1/cmr/bx/n/12 General Evo-lu-tion and AI In-te-gra-tion \OT1/cmr/m/n/12 : Re-search by []
- []
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 8 undefined on input line 496.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 8 undefined on input line 496.
-
-[8]
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 9 undefined on input line 509.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 9 undefined on input line 510.
-
-
-LaTeX Warning: Citation 'ilyas2024role' on page 9 undefined on input line 544.
-
-
-LaTeX Warning: Citation 'hassan2025' on page 9 undefined on input line 545.
-
-
-LaTeX Warning: Citation 'ARIF2025104296' on page 9 undefined on input line 546.
-
-
-LaTeX Warning: Citation 'ilyas2024role' on page 9 undefined on input line 551.
-
-[9]
-
-LaTeX Warning: Citation 'hassan2025' on page 10 undefined on input line 559.
-
-
-Overfull \hbox (135.63443pt too wide) in paragraph at lines 566--604
+ [3] [4] [5] [6] [7] [8] [9]
+Overfull \hbox (135.63443pt too wide) in paragraph at lines 573--611
 [][] 
  []
 
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 10 undefined on input line 614.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 10 undefined on input line 614.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 10 undefined on input line 615.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 10 undefined on input line 620.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 10 undefined on input line 620.
-
-[10]
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 11 undefined on input line 621.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 11 undefined on input line 621.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 11 undefined on input line 626.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 11 undefined on input line 626.
-
-
-Overfull \hbox (9.1117pt too wide) in paragraph at lines 626--627
-[]\OT1/cmr/bx/n/12 Chain of Cus-tody\OT1/cmr/m/n/12 : [] present a forensic-chain frame-
- []
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 11 undefined on input line 627.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 11 undefined on input line 631.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 11 undefined on input line 631.
-
-
-Overfull \hbox (4.601pt too wide) in paragraph at lines 630--632
-\OT1/cmr/m/n/12 of net-work tools not ex-ten-sively cov-ered in the AI-centric []
- []
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 11 undefined on input line 633.
-
-
-c:/Users/themo/Downloads/Research_Methodology_Assignment_1/main.tex:634: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.634 \item \textbf
-                   {Flow Analysis}: NetFlow and sFlow for detecting DoS and ...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 11 undefined on input line 635.
-
-
-LaTeX Warning: Citation 'ilyas2024role' on page 11 undefined on input line 643.
-
-
-LaTeX Warning: Citation 'sharma2024digital' on page 11 undefined on input line 644.
-
-
-LaTeX Warning: Citation 'hassan2025' on page 11 undefined on input line 645.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 11 undefined on input line 651.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 11 undefined on input line 651.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 11 undefined on input line 652.
-
-
-Overfull \hbox (24.77995pt too wide) in paragraph at lines 652--653
-\OT1/cmr/m/n/12 trac-tion of ev-i-den-tiary el-e-ments through video en-hance-ment []. 
- []
-
-[11]
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 12 undefined on input line 653.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 12 undefined on input line 653.
-
-
-Overfull \hbox (63.38611pt too wide) in paragraph at lines 653--654
-\OT1/cmr/m/n/12 location-based ser-vices, which com-pli-cates cor-re-la-tion and re-con-struc-tion ([]). 
- []
-
-
-LaTeX Warning: Citation 'sharma2024digital' on page 12 undefined on input line 659.
-
-
-LaTeX Warning: Citation 'ilyas2024role' on page 12 undefined on input line 660.
-
-
-LaTeX Warning: Citation 'hassan2025' on page 12 undefined on input line 661.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 12 undefined on input line 674.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 12 undefined on input line 675.
-
-c:/Users/themo/Downloads/Research_Methodology_Assignment_1/main.tex:675: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.675 ...ering\textbf{\cite{alenezi2023digital}} &
-                                                  
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-[12]
-
-LaTeX Warning: Citation 'hassan2025' on page 13 undefined on input line 713.
-
-
-LaTeX Warning: Citation 'ilyas2024role' on page 13 undefined on input line 714.
-
-
-LaTeX Warning: Citation 'hassan2025' on page 13 undefined on input line 717.
-
-
-LaTeX Warning: Citation 'ARIF2025104296' on page 13 undefined on input line 718.
-
-
-LaTeX Warning: Citation 'sharma2024digital' on page 13 undefined on input line 718.
-
-
-Overfull \hbox (61.51392pt too wide) in paragraph at lines 718--719
-\OT1/cmr/m/n/12 har-mo-nized le-gal frame-works makes cross-border ev-i-dence shar-ing dif-fi-cult ([];
- []
-
-
-LaTeX Warning: Citation 'hassan2025' on page 13 undefined on input line 719.
-
-
-Overfull \hbox (4.07257pt too wide) in paragraph at lines 719--720
-\OT1/cmr/m/n/12 op-ment of foren-sic stan-dards, par-tic-u-larly in the IoT and cloud sec-tors []). 
- []
-
-
-LaTeX Warning: Citation 'sharma2024digital' on page 13 undefined on input line 720.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 13 undefined on input line 726.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 13 undefined on input line 727.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 13 undefined on input line 728.
-
-
-Overfull \hbox (32.96698pt too wide) in paragraph at lines 728--729
-\OT1/cmr/m/n/12 ev-i-dence in a "foren-si-cally sound man-ner" be-fore an in-ci-dent oc-curs ([]). 
- []
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 13 undefined on input line 730.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 13 undefined on input line 730.
-
-
-Overfull \hbox (7.79178pt too wide) in paragraph at lines 730--731
-\OT1/cmr/m/n/12 an error-free frame-work, not-ing the per-sis-tence of false pos-i-tives. []
- []
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 13 undefined on input line 731.
-
-
-LaTeX Warning: Citation 'alenezi2023digital' on page 13 undefined on input line 732.
-
-
-LaTeX Warning: Citation 'vaddi2024enhancements' on page 13 undefined on input line 732.
-
-
-Overfull \hbox (13.2816pt too wide) in paragraph at lines 732--733
-\OT1/cmr/m/n/12 tial ma-te-rial and hu-man re-sources ([]; []). 
- []
-
-[13]
-
-LaTeX Warning: Citation 'sanna2025improving' on page 14 undefined on input line 739.
-
-
-LaTeX Warning: Citation '11385975' on page 14 undefined on input line 739.
-
-
-Overfull \hbox (46.2777pt too wide) in paragraph at lines 739--740
-\OT1/cmr/m/n/12 en-hanc-ing the speed, ac-cu-racy, and depth of cy-ber-se-cu-rity in-ves-ti-ga-tions. ([];
- []
-
-
-LaTeX Warning: Citation '11385975' on page 14 undefined on input line 747.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 14 undefined on input line 748.
-
-
-LaTeX Warning: Citation '11385975' on page 14 undefined on input line 748.
-
-
-LaTeX Warning: Citation '11166697' on page 14 undefined on input line 749.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 14 undefined on input line 749.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 14 undefined on input line 763.
-
-
-LaTeX Warning: Citation '11385975' on page 14 undefined on input line 764.
-
-
-LaTeX Warning: Citation '11166697' on page 14 undefined on input line 765.
-
-
-Overfull \hbox (135.63443pt too wide) in paragraph at lines 760--798
+[10] [11] [12] [13] [14]
+Overfull \hbox (135.63443pt too wide) in paragraph at lines 779--817
 [][] 
  []
-
-[14]
-
-LaTeX Warning: Citation 'sanna2025improving' on page 15 undefined on input line 808.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 15 undefined on input line 812.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 15 undefined on input line 819.
-
-
-Overfull \hbox (3.89105pt too wide) in paragraph at lines 819--820
-\OT1/cmr/m/n/12 from an-a-lysts view-ing sen-si-tive and ex-plicit ma-te-ri-als ([]). 
- []
-
-
-LaTeX Warning: Citation '11385975' on page 15 undefined on input line 821.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 15 undefined on input line 823.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 15 undefined on input line 828.
 
 [15]
-
-LaTeX Warning: Citation '11385975' on page 16 undefined on input line 834.
-
-
-Overfull \hbox (135.63443pt too wide) in paragraph at lines 841--879
+Overfull \hbox (135.63443pt too wide) in paragraph at lines 860--898
 [][] 
  []
 
-
-LaTeX Warning: Citation '11385975' on page 16 undefined on input line 882.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 16 undefined on input line 890.
-
-
-LaTeX Warning: Citation '11166697' on page 16 undefined on input line 899.
-
-[16]
-
-LaTeX Warning: Citation '11385975' on page 17 undefined on input line 902.
-
-
-LaTeX Warning: Citation '11166697' on page 17 undefined on input line 910.
-
-
-LaTeX Warning: Citation '11385975' on page 17 undefined on input line 910.
-
-
-LaTeX Warning: Citation '11166697' on page 17 undefined on input line 912.
-
-
-LaTeX Warning: Citation 'sanna2025improving' on page 17 undefined on input line 914.
-
-
-LaTeX Warning: Citation '11166697' on page 17 undefined on input line 916.
-
-
-LaTeX Warning: Citation '11480014' on page 17 undefined on input line 923.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 17 undefined on input line 929.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 17 undefined on input line 929.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 17 undefined on input line 929.
-
-[17]
-
-LaTeX Warning: Citation '11480014' on page 18 undefined on input line 933.
-
-
-LaTeX Warning: Citation '11480014' on page 18 undefined on input line 935.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 18 undefined on input line 958.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 18 undefined on input line 965.
-
-
-LaTeX Warning: Citation '11480014' on page 18 undefined on input line 972.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 18 undefined on input line 979.
-
-
-LaTeX Warning: Citation '11480014' on page 18 undefined on input line 986.
-
-
-Overfull \hbox (135.63443pt too wide) in paragraph at lines 947--992
+[16] [17]
+Overfull \hbox (135.63443pt too wide) in paragraph at lines 966--1011
 [][] 
  []
-
-
-LaTeX Warning: Citation '11480014' on page 18 undefined on input line 996.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 18 undefined on input line 996.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 18 undefined on input line 996.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 18 undefined on input line 1001.
-
-
-LaTeX Warning: Citation '11480014' on page 18 undefined on input line 1001.
 
 [18]
-
-LaTeX Warning: Citation '11480014' on page 19 undefined on input line 1003.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1003.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1012.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1013.
-
-
-Overfull \hbox (2.40508pt too wide) in paragraph at lines 1013--1014
+Overfull \hbox (2.40508pt too wide) in paragraph at lines 1032--1033
 []\OT1/cmr/bx/n/12 Adversarial At-tacks\OT1/cmr/m/n/12 : At-tack-ers can add \OT1/cmr/bx/n/12 in-ten-tional per-tur-ba-tions \OT1/cmr/m/n/12 (noise)
  []
 
+[19] [20] [21]
 
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1019.
+LaTeX Warning: Reference `sec:research-gaps' on page 22 undefined on input line 1223.
 
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1020.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1027.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1027.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1027.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1030.
-
-
-LaTeX Warning: Citation '11480014' on page 19 undefined on input line 1030.
-
-
-LaTeX Warning: Citation 'SINGH2025103632' on page 19 undefined on input line 1030.
-
-[19] [20]
-
-LaTeX Warning: Reference `sec:research-gaps' on page 21 undefined on input line 1204.
-
-[21] [22]
-
-LaTeX Warning: Empty bibliography on input line 1260.
-
-
-Overfull \hbox (3.58426pt too wide) in paragraph at lines 1305--1305
+[22] [23] [24]
+Overfull \hbox (3.58426pt too wide) in paragraph at lines 1324--1324
  []\OT1/cmr/bx/n/10 Methodology| 
  []
 
 
-Overfull \hbox (21.16661pt too wide) in paragraph at lines 1306--1306
+Overfull \hbox (21.16661pt too wide) in paragraph at lines 1325--1325
  []\OT1/cmr/bx/n/10 Dataset/Sample| 
  []
 
 
-Overfull \hbox (95.43106pt too wide) in paragraph at lines 1299--1330
+Overfull \hbox (95.43106pt too wide) in paragraph at lines 1318--1349
 [][] 
  []
 
-[23] [24] (./main.aux)
+[25]
+
+Package caption Warning: Unused \captionsetup[figure] on input line 63.
+See the caption package documentation for explanation.
+
+[26] (./main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
@@ -1206,38 +798,27 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  444D8ACDC72E63A38F56DA9015AF650A;11133.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 3CE547AD2AE687197B22D692A3363F5E;11133.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19988 strings out of 467099
- 350348 string characters out of 5412503
- 1299812 words of memory out of 5000000
- 49010 multiletter control sequences out of 15000+600000
- 636527 words of font info for 74 fonts, out of 8000000 for 9000
+ 20274 strings out of 467099
+ 357269 string characters out of 5412503
+ 1303556 words of memory out of 5000000
+ 49261 multiletter control sequences out of 15000+600000
+ 636874 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,10n,79p,971b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (24 pages, 523263 bytes).
+ 74i,9n,79p,1501b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (26 pages, 218756 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
- 109 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 562 compressed objects within 6 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 
