@@ -941,26 +941,29 @@ While reading through the articles, a trend can be observed in the fact that dig
 
 \subsection{Theme 3: Cybercrime and the Detection of Digital Deceptions}
 
-\subsubsection{Overview of the Cybercrime Landscape}
-
-The global cost of cybercrime is projected to reach \$10.5 trillion by 2025 \cite{11480014}. This financial escalation is driven by the increasing sophistication of digital deception, primarily through two vectors: the democratization of high-fidelity synthetic media (deepfakes) and the refinement of traditional phishing via spoofed communications. Both methods exploit human trust and systemic vulnerabilities in standard authentication protocols.
+The global cost of cybercrime is projected to reach \$10.5 trillion by 2025 \cite{11480014}. Within this very article as well contains the fact that the financial escalation is driven by the ever increasing complexity of digital deception tactics done by cybercriminals.
+This increase in complication can be explained by the recent democratization of synthetic media (deepfakes) and the refinement of traditional phishing (spoofed communications) done by cybercriminals, which both exploits human trust alongside the systemic vulnerabilities within standard authentication protocols.
 
 \subsubsection{Comparative Analysis of Deception Techniques}
 \begin{enumerate}
 \item Deepfake Generation and Proliferation
 
-According to \cite{SINGH2025103632}, deepfakes utilize Generative Adversarial Networks (GANs) to create hyper-realistic images, audio, and video through techniques like face synthesis (e.g., StyleGAN), face morphing, and speech cloning (e.g., Wav2Lip). This could be explained through the fact that open-source tools like DeepFaceLab and Faceswap have lowered the barrier of entry, allowing non-technical actors to generate deceptive content \cite{SINGH2025103632}. No doubt the high prevalence of deepfakes like the Deepfake cases in India alone rose by 550\%, with 90\% of surveyed individuals in the UK expressing apprehension about the technology \cite{SINGH2025103632}.
+According to \cite{SINGH2025103632}, deepfakes utilize Generative Adversarial Networks (GANs) to create hyper realistic images, audio, and video through utilising techniques like face synthesis (e.g., StyleGAN), face morphing, and speech cloning (e.g., Wav2Lip). 
+Due to the wide avaliability of open-source tools like DeepFaceLab and Faceswap lowering the barrier of entry, this allow less technologically savvy malicious actors to generate deceptive content easily \cite{SINGH2025103632}. 
+The effect of widespread avaliability of these tools can be seen in India, where the deepfake cases there alone rose by 550\%, with 90\% of surveyed individuals in the UK expressing apprehension about the technology and its dangers.\cite{SINGH2025103632}.
 
 \item  Email Spoofing and Phishing
 
-\cite{11480014} highlight that phishing remains a dominant threat, with a 1726\% increase in phishing websites between 2011 and 2021. Cybercriminals are able to use tools like malicious IP addresses, forged email headers, and tracking pixels which are used to monitor the recipient's activity and location as an invasion of their privacy.
+\cite{11480014} highlight that phishing remains a dominant threat, with phising websites seeing a surge by 1726\% between 2011 and 2021. 
+This surge can be explained by the fact that cybercriminals have more readily access to tools that are able to produce malicious IP addresses, forged email headers and tracking pixels, 
+which are then used to monitor the victim's online activity alongside private information like their current location.
 
-Unlike deepfakes, which often rely on visual/auditory realism, email spoofing instead leverages social engineering triggers such as emergencies and sudden authority presence (e.g., "Microsoft account unusual sign-in activity") to bypass the victim's critical thinking \cite{11480014}.
+Unlike deepfakes, which relies on visual and auditory realism, email spoofing instead leverages the victim's social engineering triggers such as sudden emergencies or authorities (e.g., "Microsoft account unusual sign-in activity") to bypass the victim's critical thinking abilities, which in turn causes them to act irrationally and fall for the deception. \cite{11480014}.
 \end{enumerate}
 
 \subsubsection{Detection Methodologies}
 
-To better combat the cybercrimes, researchers have propose diverse approaches to identifying digital deceptions, ranging from automated AI models to manual forensic analysis, as can be seen in Table 8. 
+To better combat cybercrimes, researchers have propose numerous approaches to identify digital deceptions, ranging from automated AI models to manual forensic analysis, as can be seen in Table 8. 
 
 \begin{table}[H]
 \caption{Detection Techniques and Capabilities}
@@ -969,23 +972,20 @@ To better combat the cybercrimes, researchers have propose diverse approaches to
 \fontsize{10pt}{12pt}\selectfont
 \begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|p{5cm}|}
 \hline
-\centering\textbf {Technique} &
-\centering\textbf{Application} &
+\centering\textbf{Technique and Application} &
 \centering\textbf{Capabilities} & 
 \centering\textbf{Limitations}
 \tabularnewline
 \hline
 
-\centering \textbf{CNN-Based Models} &
-\centering Deepfakes (Image/Video) &
-\centering High accuracy in spatial artifacts \cite{SINGH2025103632} & 
+\centering \textbf{CNN-Based Models [Deepfakes Images \& Videos]} &
+\centering High accuracy in identifying spatial artifacts \cite{SINGH2025103632} & 
 \centering Sensitive to compression/low resolution
 \tabularnewline
 \hline
 
-\centering \textbf{ RNN/LSTM Models} &
-\centering Deepfakes (Image/Video) &
-\centering Captures temporal inconsistencies and motion patterns \cite{SINGH2025103632} & 
+\centering \textbf{RNN/LSTM Models [Deepfakes Images \& Videos]} &
+\centering Captures temporal inconsistencies and motion patterns in videos \cite{SINGH2025103632} & 
 \centering High computational cost; slow inference
 \tabularnewline
 \hline
@@ -1016,38 +1016,44 @@ To better combat the cybercrimes, researchers have propose diverse approaches to
 
 \begin{enumerate}
 \item Similarities in Research Findings
-Both studies emphasize that \textbf{authentication failures} are primary indicators of fraud. In email forensics, this manifests as \textbf{spf=none} or \textbf{dkim=none} results \cite{11480014}. In deepfake detection, this involves identifying "spoofing" where synthetic data is presented as genuine biometric data \cite{SINGH2025103632}. Furthermore, both identify \textbf{demographic and environmental biases} in training data (e.g., FFHQ and DFDC datasets) as a significant hurdle for universal detection \cite{SINGH2025103632}.
+Both articles emphasize that "authentication failures" appear to be primary indicators of digital fraud. In email forensics, this manifests as a \textbf{spf=none} or \textbf{dkim=none} result. \cite{11480014}. 
+In deepfake detection on the other hand, involves identifying "spoofs", where synthetic data is presented as genuine biometric data and used as such. \cite{SINGH2025103632}. 
+Besides that, both identify "demographic and environmental biases" within the used datasets (e.g., FFHQ and DFDC datasets) as a significant hurdle for universal detection \cite{SINGH2025103632}.
 
 \item Differences and Contradictory Findings
 
 \begin{itemize}
-\item Scalability: \cite{SINGH2025103632} note that heavy AI pipelines (Transformers) are computationally expensive and struggle with real-time requirements (running at ~18–22 fps). Conversely, \cite{11480014} argue for the continued necessity of manual forensic analysis, asserting that automated tools often overlook subtle anomalies like a 2-second timestamp mismatch in email hops.
+\item Scalability: \cite{SINGH2025103632} notes that heavy AI pipelines (Transformers) are computationally expensive to use while still struggling with meeting real-time requirements (running at about 18 - 22 fps) for identification and detection. 
+Conversely, \cite{11480014} argues for the continued necessity of manual forensic analysis, asserting that automated tools often overlook subtle anomalies like a 2-second timestamp mismatch in email hops.
 
-\item Human Factor: \cite{11480014} emphasises human behavior as a \textbf{critical vulnerability}, whereas \cite{SINGH2025103632} focuses more on the technical \textbf{arms race} between generative models and detection algorithms while arguing for the human element for the detector models.
+\item Human Factor: \cite{11480014} emphasises human behavior as a critical vulnerability within the authentication systems, whereas \cite{SINGH2025103632} focuses more on the arms race of evolution between generative models and detection algorithms whilst arguing for the importance of the human element to be present for the detector models.
 
 \end{itemize}
 \end{enumerate}
 
-\subsubsection{Strengths, Weaknesses, and Vulnerabilities}
+\subsubsection{Weaknesses and Vulnerabilities of Current Deception Detectors}
 \begin{enumerate}
 \item Technical Weaknesses
 \begin{itemize}
-\item \textbf{Cross-Dataset Generalization}: Models trained on specific datasets (e.g., DFDC) often fail when tested against "in-the-wild" content. For example, the accuracy of the models can drop from >90\% to ~60\% when facing user-generated content like compressed TikTok videos \cite{SINGH2025103632}.
-\item \textbf{Adversarial Attacks}: Attackers can add \textbf{intentional perturbations} (noise) to forged media to deceive CNN-based classifiers into labeling them as authentic \cite{SINGH2025103632}.
+\item \textbf{Cross-Dataset Generalization}: Models that are trained on specific datasets (e.g., DFDC) are shown to fail often when tested against "in-the-wild" content. 
+For example, statistics show that the accuracy of these models can drop from >90\% to ~60\% when scanning through user-generated content, an example being  compressed TikTok videos \cite{SINGH2025103632}.
+\item \textbf{Adversarial Attacks}: Attackers are able to add intentional perturbations (e.g.: noise, imagery) onto forged media to intentionally deceive CNN-based classifiers into labeling them as authentic, while still functioning as digital deception. \cite{SINGH2025103632}.
 \end{itemize}
 
-\item Forensic Failures
-Real-world incidents demonstrate the stakes of these vulnerabilities:
+\item Forensic Failures 
+Real-world incidents, such as the one's demonstrated below, properly demonstrate the consequences of these vulnerabilities:
 \begin{itemize}
-\item \textbf{Political Turmoil}: The 2019 Ali Bongo incident in Gabon showed how a suspected deepfake (even if genuine) can trigger military takeover attempts due to public mistrust \cite{SINGH2025103632}.
-\item \textbf{Financial Loss}: A 2019 voice deepfake attack against a UK-based CEO resulted in a \$243,000 fraudulent wire transfer, illustrating the danger of voice cloning in high-stakes environments \cite{SINGH2025103632}.
+\item \textbf{Political Turmoil}: During 2019, the Ali Bongo incident that occured in Gabon showcased how a suspected deepfake (even if genuine) has the ability to trigger military takeover attempts, through simply sowing public mistrust by them viewing said deepfake.\cite{SINGH2025103632}.
+\item \textbf{Financial Loss}: During 2019, a voice-based deepfake attack caused a \$243,000 loss for a UK-based CEO due to a fraudulent wire transfer.
+This illustrates the danger of voice cloning within a high-stakes environments \cite{SINGH2025103632}.
 \end{itemize}
 \end{enumerate}
 
 \subsubsection{Emerging Trends and Policy Frameworks}
 \begin{itemize}
 \item Research Trends
-While analysing the research articles for this review, certain trends tend to pop up. One in particular being the Explainable AI (XAI), which are models that provide reasonings alongside an interpretable output to support legal admissibility and public trust in their usage \cite{SINGH2025103632}. Another one would be the facilitation of Federated Learning, a privacy-preserving approach where models area able to be trained across devices without centralizing raw biometric data \cite{SINGH2025103632}. In addition, there seems to be talks of the implementation of continuous authentication: a system that monitor user behaviors (gait, keystroke rhythm) throughout a whole session rather than relying on a one-time login \cite{SINGH2025103632}, which could better ensure the user isn't a malicious actor that pretends to be another user.
+While analysing the research articles for this review, certain trends tend to pop up. 
+One in particular being the Explainable AI (XAI), which are models that provide reasonings alongside an interpretable output to support legal admissibility and public trust in their usage \cite{SINGH2025103632}. Another one would be the facilitation of Federated Learning, a privacy-preserving approach where models area able to be trained across devices without centralizing raw biometric data \cite{SINGH2025103632}. In addition, there seems to be talks of the implementation of continuous authentication: a system that monitor user behaviors (gait, keystroke rhythm) throughout a whole session rather than relying on a one-time login \cite{SINGH2025103632}, which could better ensure the user isn't a malicious actor that pretends to be another user.
 
 \item Global Regulatory Initiatives
 In terms of global efforts in the other hand, it appears that there are new legal frameworks being established, with the aim to categorize and mitigate AI risks. For one, the EU AI Act (2024) has categorised deepfakes as \textbf{high-risk}, requiring transparency measures such as labeling synthetic content \cite{SINGH2025103632} to avoid misconception. As observable from NIST's Incident Response, \cite{11480014} advocates for integrating the NIST Incident Response Lifecycle with current forensic investigations to standardize how organizations should handle spoofing attacks. In addition, a brand new strategy has appeared: \textbf{Provenance Tagging}, which uses cryptographic hashes to track the origin of digital media, is currently being supported by the Partnership on AI (2023) to identify tampered content \cite{SINGH2025103632}.
