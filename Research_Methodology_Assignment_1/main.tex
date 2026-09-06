@@ -1135,97 +1135,100 @@ A table such as the following is recommended.
 % =========================================
 % 5. SYNTHESIS OF FINDINGS
 % =========================================
-
+\newpage
 \section{Synthesis of Findings}
+\label{sec:synthesis-of-findings}
 
-This section is particularly important.
-
-The group should answer:
-
+This section evaluates the collective evidence and thematic patterns retrieved from the reviewed literature.
 
 \subsection{What Do the Studies Agree On?}
 
-Identify findings or conclusions that are consistently reported across multiple studies.
+The analyzed literature demonstrates broad consensus across multiple key areas regarding modern cybercrime and digital forensics:
 
+\begin{enumerate}
+    \item \textbf{Digital forensics is essential for fighting cybercrime:} Available research consistently indicates that digital forensics is vital for investigating and prosecuting cybercrimes. As information systems become more prevalent, criminal activity increasingly occurs within digital environments. Digital forensics assists law enforcement officers in locating, examining, and protecting electronic data to identify suspects and establish legal facts in court.
+    \item \textbf{Traditional methods are insufficient:} There is a strong consensus that traditional manual forensic techniques are no longer adequate for contemporary cybercrime. Data volumes are too large for manual processing alone, and perpetrators employ sophisticated methods such as encryption and anti-forensic software to conceal activities. Manual processes are also too slow, meaning security breaches often cause harm before investigators can identify the event.
+    \item \textbf{AI and machine learning are necessary upgrades:} Various studies suggest that artificial intelligence, machine learning, and deep learning provide necessary methods to address current forensic difficulties. AI systems analyze large datasets rapidly, identify configurations that human investigators might overlook, and automate repetitive duties. Rather than replacing human specialists, AI enables professionals to operate with greater speed and precision.
+    \item \textbf{Encryption and anti-forensics pose major obstacles:} The literature identifies encryption and anti-forensic methods as significant barriers. Encryption secures data to prevent investigators from viewing content, while tracking pixels and forged emails help malicious actors evade standard security filters. Additionally, AI software can sometimes generate steganographic code to mask hidden information.
+    \item \textbf{Zero Trust and layered defenses work best:} To address these risks, multiple studies propose utilizing Zero Trust Architecture---operating on a ``never trust, always verify'' principle---as an effective protection mechanism against complex cyber threats and deceptive email campaigns.
+    \item \textbf{Standardization is urgently needed:} The research highlights a clear lack of standardized protocols across the field of digital forensics. Different investigators frequently apply divergent methodologies, which often leads to inconsistent analytical outcomes.
+\end{enumerate}
 
+\newpage
 \subsection{What Do the Studies Disagree On?}
 
-Identify conflicting findings, different results, or different conclusions.
+The literature reveals notable divergences and contrasting conclusions among researchers regarding specific technologies and methodologies:
+
+\begin{enumerate}
+    \item \textbf{Should AI be explainable?:} Researchers in multiple publications state that artificial intelligence must be explainable so that judges and law enforcement officers can trust and interpret software results. Conversely, other scholars argue that system precision and speed are significantly more important than logic clarity, leaving no consensus among academics.
+    \item \textbf{Is blockchain a good forensic solution?:} Certain studies describe blockchain as a permanent, tamper-resistant ledger for evidence. In contrast, other reports characterize blockchain as slow, capital-intensive, and electricity-consuming, creating a persistent disagreement.
+    \item \textbf{Is generative AI a threat or a tool?:} Some reports suggest generative AI is hazardous because it produces fabricated audiovisual media and assists cybercriminals. Meanwhile, other researchers demonstrate that the exact same technology serves to identify and block those fabricated files, indicating a split perspective.
+\end{enumerate}
 
 
 \subsection{Which Approaches Appear to Be Most Effective?}
 
-Compare the approaches and explain why certain methods appear to perform better.
+Comparative evaluation of the reviewed literature highlights several standout methodologies:
 
+\begin{enumerate}
+    \item \textbf{Hybrid deep learning models:} The CNN-BiLSTM with Attention model outperforms alternative computational processes, achieving a correct identification rate of 94.8\% while generating minimal false alarms and extracting digital proof in roughly 4 seconds (compared to 9 to 12 seconds for other systems).
+    \item \textbf{Entropy-weighted federated learning:} This methodology utilizes uncertainty calculations to select reliable data origins, attaining a 94.8\% success rate while maintaining a minimal frequency of erroneous identifications.
+    \item \textbf{Multimodal detection systems:} Integrating visual, audio, and text-based signals represents the most efficient strategy for deepfake identification, as it recognizes diverse data alteration categories and functions robustly across varied collections of information.
+    \item \textbf{NIST framework integration:} Applying the NIST Incident Response framework alongside physical forensic examination successfully analyzes phishing attacks, revealing authentication failures and hidden tracking anomalies.
+\end{enumerate}
 
+\newpage
 \subsection{What Trends Can Be Observed?}
 
-Identify emerging trends in:
+Emerging patterns across the literature span multiple technical domains:
 
-\begin{itemize}
-    \item Technologies
-    \item Methodologies
-    \item Datasets
-    \item Algorithms
-    \item Applications
-    \item Research directions
-\end{itemize}
-
-The discussion should be based on evidence from the reviewed articles.
-
+\begin{enumerate}
+    \item \textbf{AI is used at every forensic stage:} Artificial intelligence applications extend from computer vision identifying hardware during evidence gathering, to large language models acting as digital assistants, CNN-BiLSTM models processing data, and natural language processing generating formal reports.
+    \item \textbf{Federated learning is growing:} Federated learning allows organizations to train models while source data remains in place, satisfying privacy regulations and protecting confidential records during cross-border investigations.
+    \item \textbf{Automated attribution is emerging:} Security analysts leverage AI to link digital intrusions to specific attackers by identifying recurring hostile behaviors, shortening the window between breach detection and perpetrator identification.
+    \item \textbf{Deepfake detection is a priority:} Escalating incidents involving deepfake media are driving researchers to develop more sophisticated detection models and biometric protection systems that function reliably across diverse datasets.
+    \item \textbf{Cloud and IoT forensics are expanding:} Investigations involving cloud services and IoT devices require specialized tools, cross-border legal frameworks, and organizational forensic readiness to handle complex operational incidents.
+\end{enumerate}
 
 % =========================================
 % 6. RESEARCH GAPS
 % =========================================
-
+\newpage
 \section{Research Gaps}
+\label{sec:research-gaps}
 
-Identify gaps that remain in the existing literature.
+Building upon the findings and themes established in Section~\ref{sec:synthesis-of-findings}, several critical research gaps remain unaddressed in the existing literature:
 
-Possible research gaps include:
-
-\begin{itemize}
-    \item Lack of suitable datasets
-    \item Small sample sizes
-    \item Limited geographical coverage
-    \item Poor generalisation
-    \item Limited experimental validation
-    \item Lack of comparison between methods
-    \item High computational requirements
-    \item Lack of real-world testing
-    \item Security/privacy concerns
-    \item Lack of explainability
-    \item Outdated technologies
-    \item Limited integration with other technologies
-\end{itemize}
-
-For each identified gap, provide evidence from the reviewed literature.
-
+\begin{enumerate}
+    \item \textbf{No standard forensic protocols:} The majority of digital forensic studies---specifically 82.5\%---are ``vague'' in their methodology. In the absence of standardized procedures, forensic investigations lack consistency, and legal authorities may exclude evidence from judicial proceedings.
+    \item \textbf{Detection models don't work well in real-world conditions:} The performance of models trained on a specific dataset drops significantly when processing different data types. It is common for a model to achieve over 90\% accuracy in a laboratory setting, while accuracy decreases to approximately 60\% on data from actual environments, compounded by demographic biases that cause non-uniform performance.
+    \item \textbf{AI tools can't explain their decisions:} AI models frequently function as ``black boxes'' that produce decisions without providing explanations for their underlying logic. Because courts of law require transparent and verifiable evidence, judges may refuse to accept AI-generated outputs.
+    \item \textbf{No cross-domain frameworks:} Many systems are restricted to a single environment (such as the Internet of Things, cloud services, or corporate networks) and fail to interoperate. Because cybercrime frequently spans multiple domains, investigators find it difficult to assemble evidence seamlessly from diverse sources.
+    \item \textbf{Weak defense against anti-forensics:} Malicious actors use Large Language Models to generate steganographic code, employ tracking pixels to bypass filters, and utilize encryption to prevent access. Criminals deploy advanced obfuscation methods that current forensic software cannot reliably identify.
+    \item \textbf{Limited real-time detection:} Transformer models currently operate at only 18 to 22 frames per second, which is insufficient for real-time applications. Furthermore, edge devices frequently lack the processing power required to support modern AI models.
+    \item \textbf{Jurisdictional and cross-border issues:} Due to conflicting international laws, varied privacy regulations, and jurisdictional disputes, investigations crossing borders remain highly complex. Cybercrime operates on a global scale, whereas legal frameworks remain strictly national.
+    \item \textbf{Weak multimedia forensics for emerging threats:} The detection of diffusion-based fakes, real-time deepfakes, and AI-generated synthetic media is still in early development. New AI tools produce realistic fake content that current systems are unable to identify reliably.
+\end{enumerate}
 
 % =========================================
 % 7. FUTURE RESEARCH DIRECTIONS
 % =========================================
-
+\newpage
 \section{Future Research Directions}
+\label{sec:future-research}
 
-Based on the identified research gaps, propose potential directions for future research.
-
-For example:
+To fix all those issues we found in Section~\ref{sec:research-gaps}, here are some directions future research should probably take:
 
 \begin{enumerate}
-    \item Development of improved algorithms
-    \item Use of larger datasets
-    \item Integration of emerging technologies
-    \item Development of real-time systems
-    \item Improved accuracy/performance
-    \item Cross-domain applications
-    \item Improved security and privacy
-    \item Explainable AI approaches
-    \item Real-world deployment and validation
+    \item \textbf{Make AI explainable:} Since judges won't take black-box evidence, people really need to build AI that actually shows its work and explains its logic clearly to investigators.
+    \item \textbf{Create better datasets:} Researchers have to stop relying on tiny lab sets and build bigger datasets with actual real-world conditions, varied environments, and different demographics so accuracy doesn't plummet to 60\%.
+    \item \textbf{Build cross-domain frameworks:} Someone needs to design tools with standard APIs that can pull and share evidence across IoT, cloud, and corporate networks instead of keeping everything trapped in silos.
+    \item \textbf{Create AI-vs-AI feedback systems:} Since criminals are using LLMs for anti-forensics, we need defensive AI that constantly tests itself against automated attacks and updates on the fly.
+    \item \textbf{Make lightweight, real-time solutions:} Transformer models are way too slow right now, so future work has to compress these models or split processing so they can run smoothly on edge devices for live detection.
+    \item \textbf{Use federated learning for privacy:} To get around cross-border privacy laws, studies should look into federated learning and maybe blockchain so teams can share threat intel without exposing sensitive raw data.
+    \item \textbf{Harmonize legal frameworks:} We need people to work on global cybercrime treaties and standard certifications so investigators aren't constantly blocked by conflicting national laws and vague protocols.
+    \item \textbf{Improve multimedia forensics:} Technology is moving fast with diffusion fakes and synthetic media, so forensic tools need major upgrades, like live video analysis and cryptographic checks, to actually catch these new tricks.
 \end{enumerate}
-
-The proposed directions should logically follow from the research gaps identified in Section~\ref{sec:research-gaps}.
-
 
 % =========================================
 % 8. DISCUSSION
