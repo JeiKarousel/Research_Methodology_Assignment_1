@@ -1,14 +1,14 @@
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Background}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Problem Statement}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Objectives of the Review}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Research Questions}{5}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Review Methodology}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Literature Search Strategy}{5}{subsection.2.1}%
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Background}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Objectives of the Review}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Research Questions}{6}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Review Methodology}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Literature Search Strategy}{6}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Inclusion and Exclusion Criteria}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Article Selection}{7}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Literature Review}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Theme 1: Standardised Practices and Advancements of Digital Forensics}{8}{subsection.3.1}%
+\contentsline {section}{\numberline {3}Literature Review}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Theme 1: Standardised Practices and Advancements of Digital Forensics}{7}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Comparison of Research Objectives and Scope}{8}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Standardised Investigative Procedures and Workflows}{9}{subsubsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.3}The Forensic Lifecycle Comparison}{9}{subsubsection.3.1.3}%
@@ -43,6 +43,6 @@
 \contentsline {section}{\numberline {7}Future Research Directions}{21}{section.7}%
 \contentsline {section}{\numberline {8}Discussion}{22}{section.8}%
 \contentsline {section}{\numberline {9}Conclusion}{22}{section.9}%
-\contentsline {section}{References}{23}{section*.12}%
-\contentsline {section}{Appendix A -- Individual Article Review}{23}{section*.13}%
-\contentsline {section}{Appendix B -- Article Matrix}{24}{section*.15}%
+\contentsline {section}{References}{23}{section*.10}%
+\contentsline {section}{Appendix A -- Individual Article Review}{24}{section*.12}%
+\contentsline {section}{Appendix B -- Article Matrix}{25}{section*.14}%
