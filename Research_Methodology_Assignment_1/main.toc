@@ -34,15 +34,15 @@
 \contentsline {subsubsection}{\numberline {3.3.4}Strengths, Weaknesses, and Vulnerabilities}{19}{subsubsection.3.3.4}%
 \contentsline {subsubsection}{\numberline {3.3.5}Emerging Trends and Policy Frameworks}{19}{subsubsection.3.3.5}%
 \contentsline {section}{\numberline {4}Comparative Analysis of Existing Studies}{20}{section.4}%
-\contentsline {section}{\numberline {5}Synthesis of Findings}{20}{section.5}%
-\contentsline {subsection}{\numberline {5.1}What Do the Studies Agree On?}{20}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}What Do the Studies Disagree On?}{20}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Which Approaches Appear to Be Most Effective?}{20}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}What Trends Can Be Observed?}{20}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Research Gaps}{21}{section.6}%
-\contentsline {section}{\numberline {7}Future Research Directions}{21}{section.7}%
-\contentsline {section}{\numberline {8}Discussion}{22}{section.8}%
-\contentsline {section}{\numberline {9}Conclusion}{22}{section.9}%
-\contentsline {section}{References}{23}{section*.10}%
-\contentsline {section}{Appendix A -- Individual Article Review}{24}{section*.12}%
-\contentsline {section}{Appendix B -- Article Matrix}{25}{section*.14}%
+\contentsline {section}{\numberline {5}Synthesis of Findings}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}What Do the Studies Agree On?}{21}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}What Do the Studies Disagree On?}{22}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Which Approaches Appear to Be Most Effective?}{22}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}What Trends Can Be Observed?}{23}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Research Gaps}{24}{section.6}%
+\contentsline {section}{\numberline {7}Future Research Directions}{25}{section.7}%
+\contentsline {section}{\numberline {8}Discussion}{25}{section.8}%
+\contentsline {section}{\numberline {9}Conclusion}{27}{section.9}%
+\contentsline {section}{References}{28}{section*.10}%
+\contentsline {section}{Appendix A -- Individual Article Review}{32}{section*.18}%
+\contentsline {section}{Appendix B -- Article Matrix}{33}{section*.20}%
