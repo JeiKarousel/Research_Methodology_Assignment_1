@@ -21,7 +21,10 @@
 \usepackage{hyperref}       % Hyperlinks and references
 \usepackage{ragged2e}       % Text alignment
 \usepackage{setspace}       % Line spacing
+\usepackage{pdflscape}      % Landscape mode
 \usepackage{hyperref}       % Clickable links and references
+\usepackage{array}          % Customized tables
+\usepackage{tabularx}
 % =========================================
 % APA REFERENCING
 % =========================================
@@ -1246,27 +1249,17 @@ The discussion should answer:
 
 This section should demonstrate \textbf{critical thinking}, not merely summarisation.
 
-
-% =========================================
-% 9. CONCLUSION
-% =========================================
-
+% ---------------------------------------------------------------
+% 9. CONCLUSION  (written in full -- Fi's assigned section)
+% ---------------------------------------------------------------
+\newpage
 \section{Conclusion}
 
-Summarise the major findings of the review.
+This review aimed to explore the role of digital forensics in cybercrime investigations, focusing on how artificial intelligence is changing the field and how well current methods handle the challenges of modern cybercrime. From over thirty articles, three main themes emerged: the current state of standardized forensic practices, the increasing use of AI in forensics, and the ongoing battle between digital deception and detection. Standard forensic methods still support evidence collection but face issues like encryption, different laws across regions, fast-changing technology, and inconsistent reporting.
 
-The conclusion should:
+AI-enhanced methods, especially advanced models like CNN-BiLSTM, have shown better performance than traditional methods in accuracy and speed, while also automating tasks like sorting media and finding anomalies. AI is seen as a tool to help human investigators, not replace them, because human checks are still needed to meet legal standards. The issue of cybercrime and digital trickery shows how fake media and communications exploit human trust and tech weaknesses, with different detection methods having their own pros and cons.
 
-\begin{itemize}
-    \item Restate the purpose of the review
-    \item Summarise the major findings
-    \item Highlight important research gaps
-    \item State the overall conclusion
-    \item Briefly indicate future research opportunities
-\end{itemize}
-
-Do not introduce completely new information or references in the conclusion.
-
+The studies highlight major gaps: a lack of diverse global datasets, AI models that are hard to explain, no unified international laws for sharing digital evidence, and difficulties in tracing complex attacks by state actors. Despite progress, digital forensics still needs a clear, standardized, and legally strong approach to tackle cybercrime effectively. Moving forward, combining traditional methods with AI, focusing on explainable AI, using federated learning, ensuring evidence integrity with blockchain, and developing secure cryptographic techniques are key to keeping up with the evolving cybercrime landscape.
 
 % =========================================
 % REFERENCES
@@ -1280,6 +1273,7 @@ Do not introduce completely new information or references in the conclusion.
 \printbibliography[
     title={References}
 ]
+
 
 
 % =========================================
