@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 0 -1
-  "main.bcf" 1788852685 141806 8e13938558495409619b85240b77d706 "pdflatex"
+["biber main"] 1789236363.82276 "main.bcf" "main.bbl" "main" 1789275033.22509 0
+  "main.bcf" 1789275032 141819 c87f9569c9afe7c5c841c1408612024c "pdflatex"
   "references.bib" 1788583301 8860 b25f80ab133444ef2c5e1c969b03dbb5 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1788852680.65488 "c:/Users/themo/Research_Methodology_Assignment_1/Research_Methodology_Assignment_1/main.tex" "main.pdf" "main" 1788852685.77875 2
-  "c:/Users/themo/Research_Methodology_Assignment_1/Research_Methodology_Assignment_1/main.tex" 1788852671 91434 a9931a0f6ebc4dddc304cc5d25506840 ""
+["pdflatex"] 1789275028.44869 "c:/Users/themo/Research_Methodology_Assignment_1/Research_Methodology_Assignment_1/main.tex" "main.pdf" "main" 1789275033.22634 0
+  "c:/Users/themo/Research_Methodology_Assignment_1/Research_Methodology_Assignment_1/main.tex" 1789275024 97202 89528a0c0b4ccb1066dec4d6551ada7e ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1788568116 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1788569704 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1788569006 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -35,7 +35,6 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1788568098 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1788568098 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1788568098 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
-  "c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1788568098 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1788566865 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1788566865 32080 340ef9bf63678554ee606688e7b5339d ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb" 1788566865 32007 e8fa0078355f39467039935974716569 ""
@@ -44,7 +43,6 @@
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1788566865 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1788566865 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1788566865 36118 fad905eba93cff5bce1e185fe980a177 ""
-  "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1788566865 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1788566866 31764 459c573c03a4949a528c2cc7f557e217 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1788568116 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
   "c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1788572818 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -131,12 +129,12 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1788580387 5655996 795b756740562267ad2ae16e70168a76 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1788580671 3658221 4f4136537af0edaf65e8c235135e5bfd ""
   "c:/texlive/2026/texmf.cnf" 1788580321 713 e69b156964470283e0530f5060668171 ""
-  "figures_logo.png" 0 -1 0 ""
-  "main.aux" 1788852685 28485 bdd0c60c1f22a310fed35b161664ed2e "pdflatex"
-  "main.bbl" 1788670343 56279 12f9e485df01e39cefbf1aa7040aede4 "biber main"
-  "main.out" 1788852685 11133 6b728db11c868823c1f77630764a9006 "pdflatex"
-  "main.tex" 1788852671 91434 a9931a0f6ebc4dddc304cc5d25506840 ""
-  "main.toc" 1788852685 4828 544b765e760934d4cc29186260320d16 "pdflatex"
+  "main.aux" 1789275032 28869 17f6e8e26b81e8ee5c35830853415e6a "pdflatex"
+  "main.bbl" 1789236367 56279 12f9e485df01e39cefbf1aa7040aede4 "biber main"
+  "main.out" 1789275032 11475 9d7013be254563a700396802779f29c9 "pdflatex"
+  "main.run.xml" 1789275032 2427 d1bfcd6d722f5bf4e724fdcb22d9bbf2 "pdflatex"
+  "main.tex" 1789275024 97202 89528a0c0b4ccb1066dec4d6551ada7e ""
+  "main.toc" 1789275032 5067 983d535d8ea90b2956569c5f3bbf987c "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
