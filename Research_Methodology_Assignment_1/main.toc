@@ -44,7 +44,7 @@
 \contentsline {section}{\numberline {8}Discussion}{27}{section.8}%
 \contentsline {subsection}{\numberline {8.1}The Practicality of Standardization}{27}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Implications of AI usage}{28}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}}{29}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.3}The Tug Between Deception \& Detection}{29}{subsection.8.3}%
 \contentsline {section}{\numberline {9}Conclusion}{30}{section.9}%
 \contentsline {section}{References}{31}{section*.10}%
 \contentsline {section}{Appendix A -- Individual Article Review}{35}{section*.18}%
