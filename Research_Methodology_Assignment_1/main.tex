@@ -87,8 +87,8 @@
 {\fontsize{12}{14}\selectfont
 1. Wan Wei Siang -- 251UC2508W\\
 2. Elsa Zara Binti Fakhurrazi -- 251UC2502P\\
-3. Student Name -- Student ID\\
-4. Student Name -- Student ID
+3. Terry Teoh Jay Poh -- 251UC2518F\\
+4. Nur Afiqah Ramli -- 251UC2514E
 }
 
 \vspace{0.8cm}
@@ -1617,27 +1617,69 @@ Significant gap in academic and professional reporting standards
 \tabularnewline
 \hline
 
-4 & [Insert Paper] & Elsa Zara Binti Fakhurrazi & & & & & & 
+4 & [Comprehensive Forensic Analysis of a Spoofed Microsoft Email: A NIST Incident Response Approach] & 
+Elsa Zara Binti Fakhurrazi &
+Qualitative case study using the NIST Incident Response Lifecycle, with AbuseIPDB, MxToolbox, and VirusTotal. &
+A suspicious Microsoft-themed phishing email from a free phishing sample site. &
+Email was confirmed spoofed due to suspicious IP, failed SPF, DKIM and DMARC checks, mismatched sender domains, anonymous authentication, a Gmail reply-to, a tracking pixel, and a timestamp anomaly. &
+Shows how manual forensic analysis using the NIST framework can uncover subtle phishing indicators often missed by automated tools. &
+Only one email sample was used; no automated countermeasures proposed; manual analysis may not scale to high-volume SOC settings. &
+Need for automated detection of subtle phishing indicators and integration of manual techniques into scalable SOC workflows.
 \tabularnewline
 \hline
 
-5 & [Insert Paper] & Elsa Zara Binti Fakhurrazi & & & & & & 
+5 & [Unveiling cybersecurity mysteries: A comprehensive survey on digital forensics trends, threats, and solutions in network security] & 
+Elsa Zara Binti Fakhurrazi &
+Systematic Literature Review across five major databases, covering six core digital forensics subdomains. &
+Peer-reviewed journals, conference papers, and book chapters published between 2019 and 2025. &
+Found high ambiguity and overlapping processes across subdomains, and proposed a unified metamodel. Noted that the presentation phase is missing in most domains and stressed the need for global standardization. &
+Provides a cross-domain metamodel and lists actionable future directions such as quantum-resistant decryption, AI traffic analysis, federated learning, and blockchain. &
+Theoretical with limited empirical validation; broad scope reduces depth; no primary data or experimental testing of the proposed model. &
+Need for empirical validation of the metamodel and development of standardized forensic protocols across subdomains.
 \tabularnewline
 \hline
 
-6 & [Insert Paper] & Elsa Zara Binti Fakhurrazi & & & & & & 
+6 & [Unmasking digital deceptions: An integrative review of deepfake detection, multimedia forensics, and cybersecurity challenges] & 
+Elsa Zara Binti Fakhurrazi &
+Integrative review covering deepfake generation, detection techniques, and biometric defenses, with implementation-level detail. &
+Publicly available datasets such as FFHQ, CelebA, VoxCeleb, FaceForensics++, DFDC, WildDeepfake, and ASVspoof. &
+Mapped deepfake generation and detection methods, documented real-world attacks such as the CEO voice fraud and the Ali Bongo incident, and proposed explainable AI, federated learning, and policy frameworks as solutions. &
+Combines technical detection methods with policy and ethical frameworks, and covers cross-dataset generalization and real-world forensic failures. &
+Detection models risk becoming outdated as generative methods evolve; dataset biases limit generalizability; real-time edge detection is still impractical due to high compute cost. &
+Need for inclusive standardized datasets, multimodal cross-domain detection, adversarial robustness, global regulatory harmonization, and explainable AI.
 \tabularnewline
 \hline
 
-7 & [Insert Paper] & Terry Teoh Jay Poh & & & & & & 
+7 & [AI-Augmented Digital Forensics: Enhancing Cybersecurity Investigations through Intelligent Evidence Analysis] & 
+Terry Teoh Jay Poh &
+Tested a hybrid CNN-BiLSTM model with attention against Logistic Regression, Random Forest, and a standard LSTM model. &
+Synthetic forensic data created in Python, simulating phishing, insider theft, ransomware, DDoS, and log tampering. &
+The CNN-BiLSTM with attention performed best across all metrics, produced the fewest false alarms, and found key evidence much faster than the other models. Removing any part of the model lowered its performance. &
+Shows that AI can speed up evidence discovery while keeping false alarms low, with attention heatmaps that help explain the model's decisions. &
+Used only synthetic data, not real case files; small-scale simulation; no live deployment testing was done. &
+Future work should test the model on real forensic data, reduce bias across regions and devices, and integrate it into real SOC and legal workflows.
 \tabularnewline
 \hline
 
-8 & [Insert Paper] & Terry Teoh Jay Poh & & & & & & 
+8 & [AI-Powered Defense Against Advanced Persistent Threats (APTs): Techniques, Case Studies, and Future Research Directions] & 
+Terry Teoh Jay Poh &
+Reviewed existing research and analyzed real APT case studies covering AI detection, attribution, deception, and response methods. &
+Case studies include Operation Aurora, Stuxnet, Operation Shady RAT, APT1, Sony Pictures Hack, NKAbuse, Triangulation Spyware, and CloudSorcerer. &
+AI tools detect stealthy APTs better and produce fewer false alarms. A layered defense combining Zero Trust, IDPS, EDR/XDR, UEBA, and SIEM/SOAR works best. Attribution is still hard because attackers use custom malware and fileless techniques. &
+Gives a full picture of the APT lifecycle, real-world attacks, and current defense frameworks, and points out clear future directions. &
+Adversarial ML attacks, imbalanced data, and high compute needs remain issues; attribution is mostly manual and unreliable; real-time deployment is limited. &
+Research is needed on explainable AI, automated attribution, quantum-resistant cryptography, blockchain logging, and lightweight edge-compatible models.
 \tabularnewline
 \hline
 
-9 & [Insert Paper] & Terry Teoh Jay Poh & & & & & & 
+9 & [Bridging the Gaps in Data Leakage Defense: A Comprehensive Performance Evaluation of Detection and Prevention Frameworks] & 
+Terry Teoh Jay Poh &
+Tested the Entropy-Weighted Federated Data Leakage Model against rule-based DLP, ML-based DLP, and FedAvg federated DLP. &
+Combined three datasets: CICIDS 2023, Enron Email Corpus, and synthetic IoT sensor streams. &
+The proposed model achieved the highest accuracy and F1-score while producing the fewest false positives and lower latency than most baselines. Entropy values stabilized over training, showing growing model confidence. &
+Entropy-weighted aggregation handles mixed data sources well, keeps data private, and scales linearly, unlike encryption or blockchain-based methods. &
+Edge devices with weak hardware may struggle with real-time work; federated rounds add communication overhead; decisions are hard to explain; testing was limited to benchmark datasets. &
+Need explainability modules for audits, testing on live SaaS and IIoT systems, reducing edge-compute load, and proving cross-domain interoperability.
 \tabularnewline
 \hline
 
